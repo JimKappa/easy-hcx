@@ -9,7 +9,7 @@ nc='\033[0m'
 ##### User variables start #####
 
 # Change this to your wireless interface name
-nic=wlan1
+nic=wlan0
 
 # Change this to the directory you want to save captures to
 save=/root/wpa-captures
@@ -18,13 +18,13 @@ save=/root/wpa-captures
 wordlist=/usr/share/wordlists
 
 # Wifi channels to be scanned - default is all
-channel=1,2,3,4,5,6,7,8,9,10,11,12,13,14,36,38,40,42,44,46,48,52,54,56,58,60,62,64,100,102,104,106,108,110,112,114,116,118,120,122,124,126,128,132,134,136,138,140,149,151,153,155,157,159,161
+channel=1,2,3,4,5,6,7,8,9,10,11,12,13,14
 
 # Verbosity of status while capturing. 1=EAPOL, 2=PROBEREQUEST/PROBERESPONSE, 4=AUTHENTICATION, 8=ASSOCIATION. This is a bitmasked so to set to 15(1+2+4+8) to see all
 status=1
 
 # Comment this to enable deauthentication of clients. WARNING: THIS CAN BE DISRUPTIVE
-deauth=--disable_deauthentications
+deauth=--disable_deauthentication
 
 ##### User variables end #####
 
