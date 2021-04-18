@@ -24,7 +24,7 @@ channel=1,2,3,4,5,6,7,8,9,10,11,12,13,14
 status=1
 
 # Comment this to enable deauthentication of clients. WARNING: THIS CAN BE DISRUPTIVE
-deauth=--disable_deauthentication
+#deauth=--disable_deauthentication
 
 ##### User variables end #####
 
